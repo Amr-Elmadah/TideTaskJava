@@ -1,6 +1,5 @@
 package com.amr.tidetaskjava.network.interfaces;
 
-import com.google.android.gms.maps.model.LatLng;
 import com.google.gson.JsonElement;
 
 import retrofit2.Call;
