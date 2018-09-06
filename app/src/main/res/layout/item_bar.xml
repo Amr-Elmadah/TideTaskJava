@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?selectableItemBackground"
+        android:gravity="center"
+        android:minHeight="@dimen/d80"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/d6"
+        android:paddingLeft="@dimen/d10"
+        android:paddingRight="@dimen/d10"
+        android:paddingTop="@dimen/d6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/d10"
+            android:orientation="vertical">
+
+            <com.amr.tidetaskjava.customviews.CTextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="@dimen/d14"
+                custom:textStyleFont="bold" />
+
+            <com.amr.tidetaskjava.customviews.CTextView
+                android:id="@+id/tv_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingTop="@dimen/d6"
+                android:textSize="@dimen/d12"
+                custom:textStyleFont="regular" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

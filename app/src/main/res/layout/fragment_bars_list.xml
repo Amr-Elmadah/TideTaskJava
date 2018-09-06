@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.amr.tidetaskjava.customviews.RecyclerViewEmptySupport
+        android:id="@+id/rv_bars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" />
+
+    <com.amr.tidetaskjava.customviews.CTextView
+        android:id="@+id/tv_recycler_view_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/no_bars"
+        android:visibility="gone" />
+</LinearLayout>
